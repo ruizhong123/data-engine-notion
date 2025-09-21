@@ -10,14 +10,14 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 、environment(環境)、volume(容器)、depend_on(相依)、image(映像)、build(創建)以及 dockerfile 等語言指令。
 
 #### &nbsp;&nbsp;&nbsp;host(主機)
- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;模擬整個環境系統，可以模擬執行檔在環境運作的過程以及資料庫在環境中處理的情況，並且在語法中主要是包含整個docker中所有指令
+ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;模擬整個環境系統，可以模擬執行檔在環境運作的過程以及資料庫在環境中處理的情況，並且在語法中主要是包含整個docker中所有指令  
  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;(除了server最大之外)。
 
 #### &nbsp;&nbsp;&nbsp;image(映像檔): 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 以dockerfile為基礎，可建立資料庫以及提供執行檔運行環境  
 
 #### &nbsp;&nbsp;&nbsp; port(端口)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想像為主機台相應的房號，若沒有指定的房號，資料在傳送的過程中會錯亂，主要的語法呈現為 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想像為主機台相應的房號，若沒有指定的房號，資料在傳送的過程中會錯亂，主要的語法呈現為  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"主機端數字:docker-compose端口"
 
 #### &nbsp;&nbsp;&nbsp; environment(環境)
@@ -33,6 +33,7 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 
 
 ## SQL(資料庫)
+
 
 
 
