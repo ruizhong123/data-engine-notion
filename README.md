@@ -27,9 +27,13 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 #### &nbsp;&nbsp;&nbsp; network(網路連接)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;決定容器之間資料傳送的方式  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - host(主機共享):容器跟主機共享一個端口  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - brdige(橋梁):容器之間有各自的端口且隔絕，可相互傳送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - brdige(橋梁):容器之間有各自的端口且隔絕，可相互傳送  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - null(無):容器之間無任何橋梁且完全隔絕
+
+
 
 ## SQL(資料庫)
+
 
 
 
