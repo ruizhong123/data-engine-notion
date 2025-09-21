@@ -9,7 +9,7 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 是因為 docker 可以模擬機台運行程式時在自動爬取資料的情形，而 docker 在 data engine中主要會常用到host(主機端)、port(端口)、network(網路連接)
 、environment(環境)、volume(容器)、depend_on(相依)、image(映像)、build(創建)以及 dockerfile 等語言指令。
 
-##### host(主機端口)
+#### host(主機端口)
        - 主要創建環境 
   
 
@@ -21,6 +21,7 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
      
    
      
+
 
 
 
