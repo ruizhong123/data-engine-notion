@@ -4,11 +4,14 @@
 、Airflow 以及 Airbyte，來做為資料工程中主要的工具。
 
 ## Docker (容器化)
+  docker 是軟體開發中一個包裝工具，docker在程式的運行中主要有映像以及容器，映像主要是以文件檔，以dockerfile、docker-compose 呈現
+ 
 
 
 
      
    
      
+
 
 
