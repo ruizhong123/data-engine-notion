@@ -1,0 +1,4 @@
+  the purpose of files is to understanding entire process for ELT . Actually,
+we must extract source database ,load into destination database  and transfor
+data with sql . the all number of host is 4,source_destination、destination database
+、 DBT 、elt_sctipt and network. 
