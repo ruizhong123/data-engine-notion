@@ -17,12 +17,14 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 以dockerfile為基礎，可建立資料庫以及提供執行檔運行環境  
 
 #### &nbsp;&nbsp;&nbsp; port(端口)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想像為主機台相應的房號，若沒有指定的房號，資料在傳送的過程中會錯亂，主要的語法呈現為 "主機端數字:docker-compose端口"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;想像為主機台相應的房號，若沒有指定的房號，資料在傳送的過程中會錯亂，主要的語法呈現為 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"主機端數字:docker-compose端口"
 
 #### &nbsp;&nbsp;&nbsp; environment(環境)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;透過環境設置找到主要的資料庫，主要的語法有(POSTGRES_DB)資料庫名稱、(POSTGRES_USER)資料庫使用著以及 
 
                         
+
 
 
 
