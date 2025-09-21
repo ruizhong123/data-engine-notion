@@ -1,7 +1,7 @@
 ﻿# 資料工程筆記
    資料工程是軟體開發中一項重要工程，主要處理客戶資料或其他資訊轉換上道傳軟體介面方便使用以及提供資料科學家和資料分析師方便分析使用，
 為了更加方便理解資料工程整個轉換過程，主要會介紹五項應用軟體在資料轉換的過程，分別是docker、SQL、EL(Extract、Load)、DBT(Transformation)
-、Airflow 以及 Airbyte，來做為資料工程中主要的工具。
+、cron(執行時間)、Airflow 以及 Airbyte，來做為資料工程中主要的工具。
 
 ## Docker (容器化)
 docker 是軟體開發中一個包裝工具，docker在程式的運行中主要有映像以及容器，映像主要是以文件檔，以dockerfile、docker-compose 呈現，
@@ -38,6 +38,10 @@ DBT 資料轉換套件包，為資料流主要處理文件檔，內建 model(資
 log(偵測dbt的bug)、seeds(儲存小型csv檔資料)、snapshots(追蹤資料變化) 、target(資料轉換後的快取檔)、test(存放制定的資料品質測試，
 如果有新模型的話可通過test進行測試)以及 main_project.yml(策畫整體資料轉換架構)
 
+## CRON(排列指定的時間爬取資料)
+
+
+
 ## SQL(資料庫)
 #### &nbsp;&nbsp; 合併資料
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT f.film_id,f.title,a.actor_name  
@@ -47,6 +51,7 @@ log(偵測dbt的bug)、seeds(儲存小型csv檔資料)、snapshots(追蹤資料�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actors a ON fa.actor_id = a.actor_id  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ORDER BY f.film_id;
+
 
 
 
