@@ -21,10 +21,11 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"主機端數字:docker-compose端口"
 
 #### &nbsp;&nbsp;&nbsp; environment(環境)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;透過環境設置找到主要的資料庫，主要的語法有 POSTGRES_DB(資料庫名稱)、POSTGRES_USER(資料庫使用著)以及 POSTGRES_PASSWORD(資料庫密碼)
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;透過環境設置找到主要的資料庫，主要的語法有 POSTGRES_DB(資料庫名稱)、POSTGRES_USER(資料庫使用著)以及
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;POSTGRES_PASSWORD(資料庫密碼
 
                         
+
 
 
 
