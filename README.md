@@ -33,8 +33,12 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 #### &nbsp;&nbsp;&nbsp; volume(容器)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;連接資料庫來源，語法為 "./source_database/init.sql:/docker-entrypoint-initdb.d/init.sql"
 
-## SQL(資料庫)
+## DBT(Data Build Transformation)
+DBT 資料轉換套件包，為資料流主要處理文件檔，內建 model(資料場)、macro(內建函式套件包)、
 
+
+
+## SQL(資料庫)
 #### &nbsp;&nbsp; 合併資料
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT f.film_id,f.title,a.actor_name  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM films f  
@@ -43,6 +47,7 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actors a ON fa.actor_id = a.actor_id  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ORDER BY f.film_id;
+
 
 
 
