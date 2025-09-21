@@ -5,8 +5,8 @@
 
 ## Docker (容器化)
 
-    docker 是軟體開發中一個包裝工具，docker在程式的運行中主要有映像以及容器，映像主要是以文件檔，以dockerfile、docker-compose 呈現，
- 而容器視為程式正在運行時的文件檔，主要是可以模擬當程式運行在雲端機台是否會有bug錯誤，而為什麼 docker 作為資料工程最重要的一項技能之一，
+docker 是軟體開發中一個包裝工具，docker在程式的運行中主要有映像以及容器，映像主要是以文件檔，以dockerfile、docker-compose 呈現，
+而容器視為程式正在運行時的文件檔，主要是可以模擬當程式運行在雲端機台是否會有bug錯誤，而為什麼 docker 作為資料工程最重要的一項技能之一，
 是因為 docker 可以模擬機台運行程式時在自動爬取資料的情形，而 docker 在 data engine中主要會常用到host(主機端)、port(端口)、network(網路連接)
 、environment(環境)、volume(容器) 以及 dockerfile 等語言指令，而
 
@@ -21,6 +21,7 @@
      
    
      
+
 
 
 
