@@ -34,9 +34,9 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;連接資料庫來源，語法為 "./source_database/init.sql:/docker-entrypoint-initdb.d/init.sql"
 
 ## DBT(Data Build Transformation)
-DBT 資料轉換套件包，為資料流主要處理文件檔，內建 model(資料場)、macro(內建函式套件包)、
-
-
+DBT 資料轉換套件包，為資料流主要處理文件檔，內建 model(資料場)、macro(內建函式套件包)、analyses(分析資料檔)、dbt_package(執行dbt套件包)、
+log(偵測dbt的bug)、seeds(儲存小型csv檔資料)、snapshots(追蹤資料變化) 、target(資料轉換後的快取檔)、test(存放制定的資料品質測試，
+如果有新模型的話可通過test進行測試)以及 main_project.yml(策畫整體資料轉換架構)
 
 ## SQL(資料庫)
 #### &nbsp;&nbsp; 合併資料
@@ -47,6 +47,7 @@ DBT 資料轉換套件包，為資料流主要處理文件檔，內建 model(資
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actors a ON fa.actor_id = a.actor_id  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ORDER BY f.film_id;
+
 
 
 
