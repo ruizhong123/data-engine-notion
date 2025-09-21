@@ -35,6 +35,20 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 
 ## SQL(資料庫)
 
+#### &nbsp;&nbsp; 合併資料
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT f.film_id,f.title,a.actor_name  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM films f  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER  JOIN  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;film_actors fa ON f.film_id = fa.film_id  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actors a ON fa.actor_id = a.actor_id  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ORDER BY f.film_id;
+
+
+
+
+
+
 
 
 
