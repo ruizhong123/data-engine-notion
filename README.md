@@ -25,7 +25,11 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;POSTGRES_PASSWORD(資料庫密碼)
 
 #### &nbsp;&nbsp;&nbsp; network(網路連接)
-                        
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;決定容器之間資料傳送的方式
+
+
+## SQL(資料庫)
+
 
 
 
