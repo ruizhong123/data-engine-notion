@@ -18,8 +18,6 @@ services:
       - "5434:5432"
     networks:
       - elt_network
-    depends_on:
-      - source_postgres
     environment:
       POSTGRES_DB: destination_db
       POSTGRES_USER: postgres

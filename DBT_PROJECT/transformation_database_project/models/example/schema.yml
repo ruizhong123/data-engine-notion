@@ -45,9 +45,7 @@ models:
 
 
   - name: film_actors
-    
     description: "This table maps films to the actors that starred in them."
-    
     columns:
       - name: film_id
         description: "Identifier for the film."

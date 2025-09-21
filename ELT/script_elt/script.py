@@ -1,7 +1,7 @@
 import time 
 import subprocess
 
-def wait_for_postgres(host,max_retries=10, delay_seconds=5):    
+def wait_for_postgres(host,max_retries=5, delay_seconds=5):    
     
     retries = 0
     
@@ -32,7 +32,7 @@ if not wait_for_postgres(host='source_postgres'):
     print('Failed to connect to Postgres after maximum retries. Exiting...')
     exit(1)
     
-print('Start The ELT Process ...')
+print('Start The ELT Process ...')       
 
 source_config = {
     'dbname': 'source_db',
