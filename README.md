@@ -12,7 +12,9 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 ### &nbsp;&nbsp;&nbsp;-host(主機端口)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;模擬整個環境系統，可以模擬執行檔在環境運作的過程以及資料庫在環境中處理的情況，並且在語法中主要是包含整個docker中
 &nbsp;&nbsp;&nbsp;&nbsp;所有指令(除了server最大之外)。
-### &nbsp;&nbsp;&nbsp;映像檔(image): 可以建立  
+
+### &nbsp;&nbsp;&nbsp;映像檔(image): 以dockerfile為基礎，可建立資料庫以及提供執行檔運行環境  
+
 
 
 
