@@ -30,9 +30,11 @@ docker 是軟體開發中一個包裝工具，docker在程式的運行中主要�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - brdige(橋梁):容器之間有各自的端口且隔絕，可相互傳送  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - null(無):容器之間無任何橋梁且完全隔絕
 
-
+#### &nbsp;&nbsp;&nbsp; volume(容器)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;連接資料庫來源，語法為 "./source_database/init.sql:/docker-entrypoint-initdb.d/init.sql"
 
 ## SQL(資料庫)
+
 
 
 
