@@ -41,6 +41,12 @@ log(偵測dbt的bug)、seeds(儲存小型csv檔資料)、snapshots(追蹤資料�
 ## CRON(排列指定的時間爬取資料)
 
 
+## Airflow(自動排程)
+設定 airflow 可以掌控 python 執行檔以及 docker 檔
+-  設定 port(端口ui) 可以看到airflow 網站
+-  Dag(安排時間爬取資料)
+- 
+
 
 ## SQL(資料庫)
 #### &nbsp;&nbsp; 合併資料
@@ -51,6 +57,7 @@ log(偵測dbt的bug)、seeds(儲存小型csv檔資料)、snapshots(追蹤資料�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actors a ON fa.actor_id = a.actor_id  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ORDER BY f.film_id;
+
 
 
 
