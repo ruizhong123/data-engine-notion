@@ -1,19 +1,16 @@
 FROM python:3.12-slim
 
-
 # Install PostgreSQL command-line tools
 RUN apt-get update 
-RUN apt-get uninstall -y postgresql-client-15 && apt-get install -y postgresql-client-17 cron
+RUN apt-get install -y postgresql-client-17 cron
 
-COPY start.sh app/start.sh
+COPY start.sh /opt/airflow/start.sh
 
 # Copy the ELT script 
-COPY elt_script.py .
-
-WORKDIR /app
+COPY ELT_SCRIPT/ /opt/airflow/ELT_SCRIPT/
 
 # design 3am to implement the excutable file
-RUN echo "0 3 * * * python /app/elt_script.py" | crontab - 
+RUN echo "0 3 * * * python /opt/airflow/ELT_SCRIPT/elt_script.py" | crontab - 
 
 # Set the default command to run the ELT script
-CMD ["python", "elt_script.py"]
+CMD ["python", "/opt/airflow/ELT_SCRIPT/elt_script.py"]

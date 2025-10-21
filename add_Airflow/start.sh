@@ -1,3 +1,1 @@
-cron &
-
-python /app/elt_script.py
+cron & python /app/elt_script.py
